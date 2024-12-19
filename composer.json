@@ -1,0 +1,15 @@
+{
+    "name": "anirudh/myapp",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anirudh Singh",
+            "email": "anirudh.singh.7773@gmail.com"
+        }
+    ],
+    "require": {}
+}

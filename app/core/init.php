@@ -6,3 +6,4 @@ require 'Database.php';
 require 'Model.php';
 require 'Controller.php';
 require 'App.php';
+// use App\Core\App;

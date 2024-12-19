@@ -1,9 +1,11 @@
 <?php 
 
+namespace app\core;
+
 class Database {
 
   protected function connect() {
-    $conn = new mysqli('localhost', 'assignmentuser', 'Hello@123', 'mvc_db');
+    $conn = new \mysqli('localhost', 'assignmentuser', 'Hello@123', 'mvc_db');
 
     // Checks for error in connecting to database.
     if ($conn->connect_error) {

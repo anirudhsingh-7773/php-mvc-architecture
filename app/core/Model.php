@@ -1,5 +1,7 @@
 <?php 
 
+namespace app\core;
+
 class Model extends Database {
 
   public function createTable($tableName, $columns) {
@@ -7,7 +9,7 @@ class Model extends Database {
     try {
       $this->runQuery($sql);
       return true; // Table created successfully
-    } catch (Exception $e) {
+    } catch (\Exception $e) {
       echo "Error creating table: " . $e->getMessage();
       return false; // Table creation failed
     }
