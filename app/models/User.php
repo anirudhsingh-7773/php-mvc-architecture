@@ -1,4 +1,5 @@
 <?php 
+// myapp/app/models/User.php
 
 namespace app\models;
 use app\core\Model;

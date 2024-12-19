@@ -1,4 +1,5 @@
 <?php 
+// myapp/app/core/Model.php
 
 namespace app\core;
 

@@ -1,4 +1,5 @@
 <?php 
+// myapp/app/core/config.php
 
 namespace app\core;
 

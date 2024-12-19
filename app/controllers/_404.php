@@ -1,4 +1,5 @@
 <?php 
+// myapp/app/controllers/_404.php
 
 namespace app\controllers;
 use app\core\Controller;

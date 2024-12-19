@@ -1,3 +1,4 @@
+<!-- // myapp/app/views/404.view.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
